@@ -21,15 +21,17 @@ if(isset($_POST['calculate'])){
 <html lang="en">
     <head>
         <title>School</title>
+ 
         <style>
             h1{
                 color: red;
                 
             }
         </style>
+ 
     </head>
     <body>
-        <p>Profit calculator!!</p>
+        <p style ="color:blue;">Profit calculator!</p>
         <form action="" method="POST">
         <label for="">Enter purchasing price:</label>
         <input type="text" name="purchasing_price"> <br>

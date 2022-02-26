@@ -21,6 +21,12 @@ if(isset($_POST['calculate'])){
 <html lang="en">
     <head>
         <title>School</title>
+        <style>
+            h1{
+                color: blue;
+                
+            }
+        </style>
     </head>
     <body>
         <p>Profit calculator!!</p>

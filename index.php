@@ -6,6 +6,8 @@ if(isset($_POST['calculate'])){
     $profit_percentage = $_POST['profit_percentage'];
     $selling_price = $purchasingPrice*($profit_percentage/100) +$purchasingPrice;
     echo "<input type = 'label' value = <?php echo $selling_price; ?> ";
+    echo "</br>";
+    echo "Thanks for watching";
 
 }
 

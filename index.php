@@ -5,6 +5,7 @@ if(isset($_POST['calculate'])){
     $purchasingPrice   = $_POST['purchasing_price'];
     $profit_percentage = $_POST['profit_percentage'];
     $selling_price = $purchasingPrice*($profit_percentage/100) +$purchasingPrice;
+    echo "<input type = 'label' value = <?php echo $selling_price; ?> ";
 
 }
 
@@ -28,7 +29,7 @@ if(isset($_POST['calculate'])){
         <input type="text" name="profit_percentage">
         <input type="submit" name="calculate" value="Calculator">
         </form>
-
+        
         
     </body>
 </html>

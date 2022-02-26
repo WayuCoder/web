@@ -23,7 +23,7 @@ if(isset($_POST['calculate'])){
         <title>School</title>
     </head>
     <body>
-        <p>Profit calculator</p>
+        <p>Profit calculator!!</p>
         <form action="" method="POST">
         <label for="">Enter purchasing price:</label>
         <input type="text" name="purchasing_price"> <br>
